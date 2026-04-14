@@ -1,0 +1,38 @@
+# Wind Speed Prediction using Machine Learning
+
+This project applies machine learning to predict wind speed using real-world meteorological data from multiple monitoring stations in Rio de Janeiro.
+
+## Overview
+
+Accurate wind prediction is important for environmental monitoring and atmospheric modeling.  
+This project combines data from different locations to improve predictive performance.
+
+The model integrates:
+- Local weather variables
+- Data from neighboring stations
+- Engineered features based on physical relationships (temperature and pressure gradients)
+
+## Approach
+
+- Data cleaning and preprocessing
+- Feature engineering based on environmental gradients
+- Training a Random Forest regression model
+- Model evaluation using R² score
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+## Key Skills Demonstrated
+
+- Machine learning modeling
+- Data processing and cleaning
+- Feature engineering
+- Problem-solving with real-world data
+
+## Project Goal
+
+The goal of this project is to demonstrate how combining domain knowledge (physics) with machine learning can improve predictions in environmental systems.
